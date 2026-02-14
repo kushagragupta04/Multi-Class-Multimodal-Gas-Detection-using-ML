@@ -15,20 +15,20 @@ export function Footer() {
                 </div>
 
                 <div className="flex gap-6">
-                    <a href="#" className="text-slate-400 hover:text-white transition-colors">
+                    <a href="https://github.com/kushagragupta04/Multi-Class-Multimodal-Gas-Detection-using-ML" className="text-slate-400 hover:text-white transition-colors">
                         <Github size={20} />
                     </a>
-                    <a href="#" className="text-slate-400 hover:text-white transition-colors">
+                    <a href="https://www.linkedin.com/in/kushagragupta08/" className="text-slate-400 hover:text-white transition-colors">
                         <Linkedin size={20} />
                     </a>
-                    <a href="#" className="text-slate-400 hover:text-white transition-colors">
+                    <a href="mailto:kushagra2808gupta@gmail.com" className="text-slate-400 hover:text-white transition-colors">
                         <Mail size={20} />
                     </a>
                 </div>
 
-                <div className="text-slate-600 text-xs">
-                    © 2024 Project Team. All rights reserved.
-                </div>
+                {/* <div className="text-slate-600 text-xs">
+                    © 2026 Project Team. All rights reserved.
+                </div> */}
             </div>
         </footer>
     );

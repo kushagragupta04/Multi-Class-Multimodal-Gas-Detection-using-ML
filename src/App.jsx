@@ -6,6 +6,7 @@ import { Dataset } from './components/Dataset';
 import { Workflow } from './components/Workflow';
 import { Models } from './components/Models';
 import { Results } from './components/Results';
+import { Impact } from './components/Impact';
 import { Credits } from './components/Credits';
 import { Footer } from './components/Footer';
 
@@ -31,6 +32,7 @@ function App() {
                 </div>
             </section>
 
+            <Impact />
             <Credits />
 
             <Footer />

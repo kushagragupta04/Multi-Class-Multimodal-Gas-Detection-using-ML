@@ -62,7 +62,7 @@ export function Hero() {
             </div>
 
             {/* Scroll Indicator */}
-            <motion.div
+            {/* <motion.div
                 initial={{ opacity: 0 }}
                 animate={{ opacity: 1 }}
                 transition={{ delay: 1, duration: 1 }}
@@ -70,7 +70,7 @@ export function Hero() {
             >
                 <span className="text-xs uppercase tracking-widest">Scroll to explore</span>
                 <div className="w-[1px] h-12 bg-gradient-to-b from-slate-500 to-transparent" />
-            </motion.div>
+            </motion.div> */}
         </section>
     );
 }
