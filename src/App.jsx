@@ -6,6 +6,7 @@ import { Dataset } from './components/Dataset';
 import { Workflow } from './components/Workflow';
 import { Models } from './components/Models';
 import { Results } from './components/Results';
+import { Credits } from './components/Credits';
 import { Footer } from './components/Footer';
 
 function App() {
@@ -29,6 +30,8 @@ function App() {
                     </p>
                 </div>
             </section>
+
+            <Credits />
 
             <Footer />
         </div>
