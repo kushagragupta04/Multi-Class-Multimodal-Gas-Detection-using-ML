@@ -53,7 +53,7 @@ export function Hero() {
                         <ArrowRight size={16} className="group-hover:translate-x-1 transition-transform" />
                     </a>
                     <a
-                        href="#approach"
+                        href="https://github.com/kushagragupta04/Multi-Class-Multimodal-Gas-Detection-using-ML"
                         className="inline-flex items-center justify-center gap-2 px-8 py-3 rounded-xl bg-slate-800 hover:bg-slate-700 text-white font-medium transition-colors border border-slate-700 hover:border-slate-600"
                     >
                         Explore Approach

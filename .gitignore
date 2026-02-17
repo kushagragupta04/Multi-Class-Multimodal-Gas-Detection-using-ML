@@ -36,7 +36,6 @@ Thumbs.db
 *.log
 
 # Optional: Ignore dataset files (if added accidentally)
-*.csv
 *.zip
 *.tar.gz
 

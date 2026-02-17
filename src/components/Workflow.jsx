@@ -19,7 +19,7 @@ export function Workflow() {
         },
         {
             title: "Train-Test Split",
-            description: "Dividing the dataset into training (80%) and testing (20%) sets to evaluate the models on unseen data and prevent overfitting."
+            description: "Dividing the dataset into training (70%) and testing (30%) sets to evaluate the models on unseen data and prevent overfitting."
         },
         {
             title: "Scaling",
