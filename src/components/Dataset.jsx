@@ -16,7 +16,7 @@ export function Dataset() {
                 <div className="grid md:grid-cols-3 divide-y md:divide-y-0 md:divide-x divide-slate-700/50">
                     {[
                         { label: "Total Samples", value: "6,400+", icon: <Database /> },
-                        { label: "Features", value: "8 Sensors", icon: <FileSpreadsheet /> },
+                        { label: "Features", value: "7 Sensors", icon: <FileSpreadsheet /> },
                         { label: "Classes", value: "4 Gas Types", icon: <Users /> }
                     ].map((stat, i) => (
                         <div key={i} className="p-8 flex flex-col items-center text-center hover:bg-slate-700/20 transition-colors">
@@ -40,25 +40,55 @@ export function Dataset() {
                     <tbody className="divide-y divide-slate-800">
                         <tr className="bg-slate-900/20">
                             <td className="px-6 py-4 font-medium text-white">MQ2 Sensor</td>
-                            <td className="px-6 py-4">Detects Smoke, LPG, CO</td>
+                            <td className="px-6 py-4">Detects Smoke, LPG, Methane</td>
                             <td className="px-6 py-4 font-mono text-xs">Voltage (V)</td>
                         </tr>
+
+                        <tr className="bg-slate-900/20">
+                            <td className="px-6 py-4 font-medium text-white">MQ3 Sensor</td>
+                            <td className="px-6 py-4">Detects Alcohol Vapors (Perfume, Ethanol)</td>
+                            <td className="px-6 py-4 font-mono text-xs">Voltage (V)</td>
+                        </tr>
+
                         <tr className="bg-slate-900/20">
                             <td className="px-6 py-4 font-medium text-white">MQ5 Sensor</td>
                             <td className="px-6 py-4">Sensitive to Natural Gas, LPG</td>
                             <td className="px-6 py-4 font-mono text-xs">Voltage (V)</td>
                         </tr>
+
+                        <tr className="bg-slate-900/20">
+                            <td className="px-6 py-4 font-medium text-white">MQ6 Sensor</td>
+                            <td className="px-6 py-4">Detects LPG, Butane, Propane</td>
+                            <td className="px-6 py-4 font-mono text-xs">Voltage (V)</td>
+                        </tr>
+
+                        <tr className="bg-slate-900/20">
+                            <td className="px-6 py-4 font-medium text-white">MQ7 Sensor</td>
+                            <td className="px-6 py-4">Detects Carbon Monoxide (CO)</td>
+                            <td className="px-6 py-4 font-mono text-xs">Voltage (V)</td>
+                        </tr>
+
+                        <tr className="bg-slate-900/20">
+                            <td className="px-6 py-4 font-medium text-white">MQ8 Sensor</td>
+                            <td className="px-6 py-4">Detects Hydrogen Gas (H₂)</td>
+                            <td className="px-6 py-4 font-mono text-xs">Voltage (V)</td>
+                        </tr>
+
                         <tr className="bg-slate-900/20">
                             <td className="px-6 py-4 font-medium text-white">MQ135 Sensor</td>
-                            <td className="px-6 py-4">Air Quality Control (NH3, NOx, Alcohol, Benzene, Smoke, CO2)</td>
+                            <td className="px-6 py-4">
+                                Air Quality Monitoring (NH₃, Benzene, Smoke, CO₂)
+                            </td>
                             <td className="px-6 py-4 font-mono text-xs">PPM</td>
                         </tr>
+
                         <tr className="bg-slate-900/20">
                             <td className="px-6 py-4 font-medium text-white">Target Label</td>
-                            <td className="px-6 py-4">Categorical Gas Class</td>
+                            <td className="px-6 py-4">Categorical Gas Class (Smoke, Perfume, Mixture, No Gas)</td>
                             <td className="px-6 py-4 font-mono text-xs">One-Hot Encoded</td>
                         </tr>
                     </tbody>
+
                 </table>
             </div>
         </Section>

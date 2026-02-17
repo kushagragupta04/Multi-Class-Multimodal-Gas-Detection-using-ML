@@ -45,7 +45,7 @@ export function Hero() {
                     className="flex flex-col sm:flex-row gap-4 justify-center"
                 >
                     <a
-                        href="#dataset"
+                        href="https://github.com/kushagragupta04/Multi-Class-Multimodal-Gas-Detection-using-ML/blob/main/Multimodal%20Gas%20Detection%20%26%20Classification%20Dataset/Gas%20Sensors%20Measurements/Gas_Sensors_Measurements.csv"
                         className="inline-flex items-center justify-center gap-2 px-8 py-3 rounded-xl bg-blue-600 hover:bg-blue-500 text-white font-medium transition-colors shadow-lg shadow-blue-500/20 group"
                     >
                         <Database size={20} />
