@@ -26,7 +26,7 @@ export function Hero() {
                     transition={{ delay: 0.2 }}
                     className="text-5xl md:text-7xl font-bold mb-6 bg-gradient-to-r from-white via-slate-200 to-slate-400 text-transparent bg-clip-text"
                 >
-                    Multimodal Gas Detection <br /> & Classification
+                    Intelligent Gas Leakage Monitoring
                 </motion.h1>
 
                 <motion.p
@@ -53,7 +53,7 @@ export function Hero() {
                         <ArrowRight size={16} className="group-hover:translate-x-1 transition-transform" />
                     </a>
                     <a
-                        href="https://github.com/kushagragupta04/Multi-Class-Multimodal-Gas-Detection-using-ML"
+                        href="https://github.com/kushagragupta04/Multi-Class-Multimodal-Gas-Detection-using-ML/blob/main/Multi_Class_Multimodal_Gas_Detection_using_ML.ipynb"
                         className="inline-flex items-center justify-center gap-2 px-8 py-3 rounded-xl bg-slate-800 hover:bg-slate-700 text-white font-medium transition-colors border border-slate-700 hover:border-slate-600"
                     >
                         Explore Approach
