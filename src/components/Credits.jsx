@@ -20,7 +20,7 @@ export function Credits() {
                             <GraduationCap size={32} />
                         </div>
                         <div className="text-xs font-bold text-blue-400 uppercase tracking-wider mb-2">Project Guide</div>
-                        <h3 className="text-2xl font-bold text-white mb-1">Ms. Shweta Sharma</h3>
+                        <h3 className="text-2xl font-bold text-white mb-1">Ms. Hemlata Goyal</h3>
                         {/* <p className="text-slate-500 text-sm">Designation / Department</p> */}
                     </div>
                 </div>
@@ -34,9 +34,17 @@ export function Credits() {
                             <User size={32} />
                         </div>
                         <div className="text-xs font-bold text-emerald-400 uppercase tracking-wider mb-2">Team Member</div>
-                        <h3 className="text-2xl font-bold text-white mb-2">Kushagra Gupta</h3>
+                        <h3 className="text-2xl font-bold text-white mb-2">Ashish Kumar Nanda</h3>
                         <p className="text-slate-400 font-mono text-sm bg-slate-800/50 inline-block px-3 py-1 rounded-full border border-slate-700/50">
-                            Reg No: 23FE10CSE00614
+                            Reg No: 23FE10CII00223
+                        </p>
+                        <h3 className="text-2xl font-bold text-white mb-2">Amrisha Srivastava</h3>
+                        <p className="text-slate-400 font-mono text-sm bg-slate-800/50 inline-block px-3 py-1 rounded-full border border-slate-700/50">
+                            Reg No: 23FE10CII00196
+                        </p>
+                        <h3 className="text-2xl font-bold text-white mb-2">Kritish Dudani</h3>
+                        <p className="text-slate-400 font-mono text-sm bg-slate-800/50 inline-block px-3 py-1 rounded-full border border-slate-700/50">
+                            Reg No: 23FE10CII00251
                         </p>
                     </div>
                 </div>

@@ -5,6 +5,7 @@ import { ProjectScope } from './components/ProjectScope';
 import { Dataset } from './components/Dataset';
 import { Workflow } from './components/Workflow';
 import { Models } from './components/Models';
+import { Transformer } from './components/Transformer';
 import { Results } from './components/Results';
 import { Impact } from './components/Impact';
 import { Credits } from './components/Credits';
@@ -21,6 +22,7 @@ function App() {
             <Dataset />
             <Workflow />
             <Models />
+            <Transformer />
             <Results />
 
             <section className="py-20 text-center px-6">
