@@ -30,3 +30,4 @@ This project is a React-based landing page for the Gas Leakage Detection ML proj
 -   Framer Motion
 -   Lucide React (Icons)
 -   Vite (Build Tool)
+# Gas-detection-and-monitoring
