@@ -120,7 +120,7 @@ export function Models() {
                         </div>
                         <div className="text-right shrink-0">
                             <div className="text-slate-400 text-xs uppercase tracking-wider mb-1">Test Accuracy</div>
-                            <div className="text-4xl font-bold text-violet-300 font-mono">~98.5%</div>
+                            <div className="text-4xl font-bold text-violet-300 font-mono">~96.5%</div>
                         </div>
                     </div>
 
@@ -241,10 +241,10 @@ export function Models() {
                 <h3 className="text-xl font-bold mb-6 text-center">Model Accuracy Comparison</h3>
                 <div className="space-y-4">
                     {[
-                        { name: "SensorTransformer (Gen AI)", acc: 98.5, color: "bg-violet-500", textColor: "text-violet-300" },
-                        { name: "K-Nearest Neighbors",        acc: 97.08, color: "bg-purple-500",  textColor: "text-purple-300" },
-                        { name: "Random Forest",              acc: 96.93, color: "bg-green-500",   textColor: "text-green-300" },
-                        { name: "Support Vector Machine",     acc: 91.0,  color: "bg-blue-500",    textColor: "text-blue-300" },
+                        { name: "SensorTransformer (Gen AI)", acc: 96.5, color: "bg-violet-500", textColor: "text-violet-300" },
+                        { name: "K-Nearest Neighbors",        acc: 95.08, color: "bg-purple-500",  textColor: "text-purple-300" },
+                        { name: "Random Forest",              acc: 94.93, color: "bg-green-500",   textColor: "text-green-300" },
+                        { name: "Support Vector Machine",     acc: 90.0,  color: "bg-blue-500",    textColor: "text-blue-300" },
                         { name: "Logistic Regression",        acc: 83.0,  color: "bg-yellow-500",  textColor: "text-yellow-300" },
                     ].map((row) => (
                         <div key={row.name} className="flex items-center gap-4">
